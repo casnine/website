@@ -1,3 +1,10 @@
 body {
-  background-color: red;
+  background-color: AliceBlue;
+  color: DarkSlateBlue;
+}
+  h1{
+    color: red;
+  }
+body {
+  font-family: 'Noto Serif TC', Georgia, serif;
 }
