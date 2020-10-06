@@ -1,11 +1,13 @@
+/* Website Styles */
+
 body {
-  background-color: AliceBlue;
-  color: DarkSlateBlue;
+  background-color: grey;
+  color: black;
   font-family: Arial;
 }
 
 h1 {
-  color: red;
+  color: white;
 }
 
 body {
@@ -13,5 +15,10 @@ body {
 }
 
 h1 {
-  font-family: Helvetica, Arial;
+  /* font-family: Helvetica, Arial; */
+}
+
+body{
+  background-color: grey;
+  color: black;
 }
