@@ -13,23 +13,25 @@
   }
 
 body {
-  background-color: grey;
+  background-image: url{images/pattern.png};
+  background-repeat: no-repeat;
+  /* background-color: Holiday Red; */
   color: black;
   font-family: 'Noto Serif TC', Georgia, serif;
   font-size: 16px;
-  /* margin: 50px; */
+  margin: 50px;
   }
 
   header,
   section,
   footer {
     padding: 30px;
-    border-bottom: 5px solid grey;
+    /* border-bottom: 5px solid grey; */
   }
 
   section {
     border: 1px solid gainsboro;
-    background-color: white;
+    background-color: orange;
     margin: 30px;
     padding: 30px;
   }
@@ -42,7 +44,7 @@ h1 {
 
 header h1 {
   text align: center;
-  border-bottom: 5px solid grey;
+  /* border-bottom: 5px solid grey; */
   }
 
 h2 {
@@ -65,11 +67,11 @@ h1 {
 
 p {
   line-height: 2;
-  margin: 15px 0;
+  margin: 20px 0;
   }
 
 img {
-  height: 300px;
+  /* height: 300px; */
   }
 
 a {
@@ -84,4 +86,15 @@ a:hover {
 
 ul,ol {
   margin: 15px 0;
+  }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  }
+  .banner {
+    height: 350px;
+    background-image: url(images/banner.jpg);
+    /* background-size: cover; */
+     /* background-position: center; */
   }
