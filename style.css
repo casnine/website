@@ -15,6 +15,7 @@
 body {
   background-image: url{images/pattern.png};
   background-repeat: no-repeat;
+  /* background-repeat: repeat; */
   /* background-color: Holiday Red; */
   color: black;
   font-family: 'Noto Serif TC', Georgia, serif;
